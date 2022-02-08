@@ -19,10 +19,11 @@ const ExperienceCard = ({ data }) => {
 	return (
 		<Col lg="4">
 			<Fade left duration={1000} distance="40px">
-				<Card
+				
+        <Card
 					style={{ flex: 1 }}
-					className="shadow-lg--hover shadow border-0 text-center rounded"
-				>
+					className="shadow-lg--hover shadow border-0 text-center rounded">
+
 					<Color src={data.companylogo} format="hex">
 						{(color) => (
 							<CardHeader style={{ background: color.data }}>
@@ -30,18 +31,18 @@ const ExperienceCard = ({ data }) => {
 							</CardHeader>
 						)}
 					</Color>
+
 					<CardBody className="py-5">
 						<div
 							className="bg-white rounded-circle mb-3 img-center img-fluid shadow-lg "
-							style={{ width: "100px", height: "100px" }}
-						>
+							style={{ width: "100px", height: "100px" }}>
+
 							<Image
 								src={data.companylogo}
 								objectFit="contain"
 								layout = "responsive"
 								width={"10px"}
 								height={"10px"}
-								// scale the image to 90%
 								sizes={"(max-width: 10px) 100vw, 10px"}
 								alt={data.companylogo}
 							/>

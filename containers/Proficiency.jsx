@@ -23,10 +23,10 @@ const Proficiency = () => {
 										<span>{skill.Stack}</span>
 									</div>
 									<div className="progress-percentage">
-										<span>{skill.progressPercentage}%</span>
+										<span>{skill.progressPercentage} years</span>
 									</div>
 									<Progress
-										max="100"
+										max="5"
 										value={skill.progressPercentage}
 										color="info"
 										role="progressbar"

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-
 import { greetings, socialLinks } from "../portfolio";
 import Headroom from "headroom.js";
 import {Link} from 'react-scroll';
@@ -13,6 +12,7 @@ import {
 	Container,
 	Row,
 	Col,
+  Label
 } from "reactstrap";
 
 const Navigation = () => {
@@ -23,7 +23,6 @@ const Navigation = () => {
 
 	useEffect(() => {
 		let headroom = new Headroom(document.getElementById("navbar-main"));
-		// initialise
 		headroom.init();
 	});
 
@@ -33,21 +32,22 @@ const Navigation = () => {
 				<Navbar
 					className="navbar-main navbar-transparent navbar-light headroom"
 					expand="lg"
-					id="navbar-main"
-				>
+					id="navbar-main">
+
 					<Container>
 						<NavbarBrand href="/" className="mr-lg-5">
 							<h2 className="text-white" id="nav-title">
 								{greetings.name}
 							</h2>
 						</NavbarBrand>
-						<button
+						
+            <button
 							className="navbar-toggler"
 							aria-label="navbar_toggle"
-							id="navbar_global"
-						>
+							id="navbar_global">
 							<span className="navbar-toggler-icon" />
 						</button>
+
 						<UncontrolledCollapse
 							toggler="#navbar_global"
 							navbar
@@ -87,9 +87,8 @@ const Navigation = () => {
 										className="nav-link-icon"
 										target="_blank">
 											<Link to = "skills">
-										<i className="fa fa-envelope" />
+                      <label style={{fontFamily: 'Monaco', fontSize: 17}}><b>Skills</b></label>
 										<span className="nav-link-inner--text d-lg-none ml-2">
-											Email
 										</span>
 										</Link>
 									</NavLink>
@@ -102,9 +101,8 @@ const Navigation = () => {
 										className="nav-link-icon"
 										target="_blank">
 											<Link to="education">	
-										<i className="fa fa-twitter-square" />
+                      <label style={{fontFamily: 'Monaco', fontSize: 17}}><b>Education</b></label>
 										<span className="nav-link-inner--text d-lg-none ml-2">
-											Twitter
 										</span>
 									</Link>
 									</NavLink>
@@ -115,13 +113,12 @@ const Navigation = () => {
 										rel="noopener"
 										aria-label="Github"
 										className="nav-link-icon"
-										href={socialLinks.github}
-										target="_blank"
-									>
-										<i className="fa fa-github" />
+										target="_blank">
+                      <Link to="experience">
+                        <label style={{fontFamily: 'Monaco', fontSize: 17}}><b>Experience</b></label>
 										<span className="nav-link-inner--text d-lg-none ml-2">
-											Github
 										</span>
+                    </Link>
 									</NavLink>
 								</NavItem>
 								<NavItem>
@@ -129,12 +126,12 @@ const Navigation = () => {
 										rel="noopener"
 										aria-label="Linkedin"
 										className="nav-link-icon"
-										href={socialLinks.linkedin}
 										target="_blank">
-										<i className="fa fa-linkedin" />
+                      <Link to="projects">
+                      <label style={{fontFamily: 'Monaco', fontSize: 17}}><b>Projects</b></label>
 										<span className="nav-link-inner--text d-lg-none ml-2">
-											Linkedin
 										</span>
+                    </Link>
 									</NavLink>
 								</NavItem>
 							</Nav>

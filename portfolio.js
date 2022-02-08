@@ -112,16 +112,16 @@ export const skillsSection = {
 
 export const SkillBars = [
 	{
-		Stack: "Frontend/Design", //Insert stack or technology you have experience in
-		progressPercentage: "90", //Insert relative proficiency in percentage
+		Stack: "Programming", 
+		progressPercentage: "4", 
 	},
 	{
-		Stack: "Backend",
-		progressPercentage: "70",
+		Stack: "Computer Vision",
+		progressPercentage: "3",
 	},
 	{
-		Stack: "Programming",
-		progressPercentage: "60",
+		Stack: "Web Development",
+		progressPercentage: "2",
 	},
 ];
 
@@ -149,7 +149,7 @@ export const experience = [
 		role: "Machine Learning Software Engineer Intern",
 		company: "SAP",
 		companylogo: "/img/icons/common/sap.png",
-		date: "May 2021 – Sept 2021",
+		date: "May 2021 - Sept 2021",
 		desc: "Product Intelligence Team",
 		descBullets: [
 			"Tools Used: Python, PostgreSQL, Tensorflow, Flask, PyTorch, Azure, Docker, Git"
