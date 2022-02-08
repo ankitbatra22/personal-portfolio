@@ -4,6 +4,8 @@ import Proficiency from "../containers/Proficiency";
 const Greetings = dynamic(() => import("../containers/Greetings"));
 const Navigation = dynamic(() => import("../components/Navigation"));
 const Skills = dynamic(() => import("../containers/Skills"));
+const Projects = dynamic(() => import("../containers/Projects"));
+const Education = dynamic(() => import("../containers/Education"));
 
 import { openSource } from "../portfolio";
 import SEO from "../components/SEO";
@@ -31,6 +33,9 @@ export default function Home() {
       <Greetings />
       <Skills />
       <Proficiency />
+      <Education />
+      <Projects />
+      
     </div>
     
 	);
