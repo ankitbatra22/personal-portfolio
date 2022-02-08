@@ -116,12 +116,12 @@ export const SkillBars = [
 		progressPercentage: "4", 
 	},
 	{
-		Stack: "Computer Vision",
-		progressPercentage: "3",
-	},
-	{
 		Stack: "Web Development",
 		progressPercentage: "2",
+	},
+	{
+		Stack: "Computer Vision",
+		progressPercentage: "3",
 	},
 ];
 
