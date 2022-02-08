@@ -2,7 +2,7 @@ import emoji from "react-easy-emoji";
 
 export const greetings = {
 	name: "Ankit Batra",
-	title: "Hi I'm Ankit!",
+	title: "Hi! I'm Ankit",
 	description:
 		"A passionate Mechatronics engineering student @UWaterloo with an interest in Deep Learning, Computer Vision, Backend & Cloud Computing.",
 	resumeLink: "",
