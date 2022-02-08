@@ -20,9 +20,9 @@ const GithubProfileCard = ({ prof }) => {
 							/>
 						</Col>
 						<Col lg="8" className="order-lg-1">
-							<h2 className="text-white">Let's Talk!</h2>
+							<h2 className="text-white">I would love to chat!</h2>
 							<p className="lead text-white mt-3">
-								I'm always open to discuss a project or just to chat. Feel free to reach out to me!
+								I am always open to discuss a project or just to chat. Feel free to reach out to me!
 							</p>
 							<p className="text-white mt-3">{prof.githubProfileData.bio}</p>
 							<div className="my-3 icon-shape bg-gradient-white shadow rounded text-info">
