@@ -142,7 +142,7 @@ export const experience = [
 		date: "Jan 2022 - Present",
 		desc: "Computer Vision Team",
 		descBullets: [
-			"Tools Used: Python, TypeScript, MLFlow, Tensorflow, Keras, AWS, Docker, Git"
+			"Tools Used: Python, C++, TypeScript, MLFlow, Tensorflow, AWS, Docker, Git"
 		],
 	},
 	{
