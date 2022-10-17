@@ -136,10 +136,20 @@ export const educationInfo = [
 
 export const experience = [
 	{
+		role: "Software Developer Intern, Full Stack",
+		company: "Toyota Canada Inc.",
+		companylogo: "/img/icons/common/toyota.png",
+		date: "Sept 2022 - Present",
+		desc: "Enterprise Buisness Solutions Team",
+		descBullets: [
+			"Tools Used: Java, Spring, Maven, Python, Azure, IIB, Git"
+		],
+	},
+	{
 		role: "Software Developer Intern, Computer Vision",
 		company: "Miovision",
 		companylogo: "/img/icons/common/miovision.png",
-		date: "Jan 2022 - Present",
+		date: "Jan 2022 - May 2022",
 		desc: "Computer Vision Team",
 		descBullets: [
 			"Tools Used: Python, C++, TypeScript, MLFlow, Tensorflow, AWS, CUDA, Docker, Git"
