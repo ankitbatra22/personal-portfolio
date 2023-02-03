@@ -142,7 +142,7 @@ export const experience = [
 		date: "Sept 2022 - Present",
 		desc: "Enterprise Buisness Solutions Team",
 		descBullets: [
-			"Tools Used: Java, Spring, Maven, Python, Azure, IIB, Git"
+			"Tools Used: Java, Spring Boot, Maven, Python, Azure, MySQL, Git"
 		],
 	},
 	{
