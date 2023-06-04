@@ -136,17 +136,27 @@ export const educationInfo = [
 
 export const experience = [
 	{
-		role: "Software Developer Intern, Full Stack",
-		company: "Toyota Canada Inc.",
-		companylogo: "/img/icons/common/toyota.png",
-		date: "Sept 2022 - Present",
-		desc: "Enterprise Buisness Solutions Team",
+		role: "Software Engineer Intern, ML Research",
+		company: "Snap Inc.",
+		companylogo: "/img/icons/common/snap.jpeg",
+		date: "May 2023 - Present",
+		desc: "Large Scale Graph ML",
 		descBullets: [
-			"Tools Used: Java, Spring Boot, Maven, Python, Azure, MySQL, Git"
+			"Tools Used: Python, Scala, PyTorch, Tensorflow, GCP, Docker, Spark, Git"
 		],
 	},
 	{
-		role: "Software Developer Intern, Computer Vision",
+		role: "Software Engineer Intern, Full Stack",
+		company: "Toyota Canada Inc.",
+		companylogo: "/img/icons/common/toyota.png",
+		date: "Sept 2022 - Dec 2022",
+		desc: "Enterprise Buisness Solutions Team",
+		descBullets: [
+			"Tools Used: Java, Spring Boot, Maven, Python, Azure, Docker, MySQL, Git"
+		],
+	},
+	{
+		role: "Software Engineer Intern, Computer Vision",
 		company: "Miovision",
 		companylogo: "/img/icons/common/miovision.png",
 		date: "Jan 2022 - May 2022",
