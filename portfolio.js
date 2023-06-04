@@ -142,7 +142,7 @@ export const experience = [
 		date: "May 2023 - Present",
 		desc: "Large Scale Graph ML",
 		descBullets: [
-			"Tools Used: Python, Scala, PyTorch, Tensorflow, GCP, Docker, Spark, Git"
+			"Tools Used: Python, Scala, PyTorch, Tensorflow, GCP, Kubernetes, Kubeflow, Spark, Git"
 		],
 	},
 	{
