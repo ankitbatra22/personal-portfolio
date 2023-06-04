@@ -138,7 +138,7 @@ export const experience = [
 	{
 		role: "Software Engineer Intern, ML Research",
 		company: "Snap Inc.",
-		companylogo: "/img/icons/common/snap.jpeg",
+		companylogo: "/img/icons/common/snaplogo.png",
 		date: "May 2023 - Present",
 		desc: "Large Scale Graph ML",
 		descBullets: [
